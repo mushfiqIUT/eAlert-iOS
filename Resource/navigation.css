@@ -1,0 +1,85 @@
+/*/Horizontal Menu styles/*/
+.horizontalMenu ul.menu {
+	padding: 0;
+	margin-left: auto !important;
+	margin-right: auto !important;
+	list-style: none;
+	overflow: auto;	/*/clear floated li elements/*/
+	margin-top: 15px;
+	margin-bottom: -5px;
+	display: table;
+}
+
+.horizontalMenu ul.menu li {
+	display: inline-block;
+	border-right: 1px solid #000066;
+	margin-bottom: 5px;
+	text-align: center;
+	zoom: 1;
+        *display: inline;
+}
+
+.horizontalMenu ul.menu li:last-child {
+	border-right: none !important;
+}
+
+.horizontalMenu ul.menu li a {
+	float: left;
+	margin-top: -3px;
+	padding-left: 6px;
+	padding-right: 6px;
+	color: #000066;
+	text-decoration: underline;
+	font-size: 11px;
+}
+
+.horizontalMenu ul.menu li a:visited {
+	color: #000066;
+	text-decoration: underline;
+}
+
+.horizontalMenu ul.menu li a:hover {
+	color:#336699;
+}
+
+/*/Tabs (tabbed navigation) styles/*/
+.tabsMenu ul.menu {
+	margin: 0 0 1em;
+}
+.tabsMenu ul.menu li {
+	display: inline;
+}
+.tabsMenu ul.menu li a {
+	border: 1px solid #999;
+	border-bottom: 0;
+	padding: 5px 10px 2px;
+	color: #777;
+	text-decoration:none;
+}
+.tabsMenu ul.menu li.current a,
+.tabsMenu ul.menu li a:hover {
+	border: 1px solid #000;
+	border-bottom: 0;
+	color: #000;
+}
+/*/Indent Nav styles/*/
+.indentMenu a.level0 {
+	margin-left:0px;
+	display:block;
+}
+.indentMenu a.level1 {
+	margin-left:15px;
+	display:block;	
+}
+.indentMenu a.level2 {
+	margin-left:30px;
+	display:block;
+}
+.indentMenu a.level3 {
+	margin-left:45px;
+	display:block;
+}
+.indentMenu a.level4 {
+	margin-left:60px;
+	display:block;
+}

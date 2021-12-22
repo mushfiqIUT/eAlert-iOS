@@ -1,0 +1,143 @@
+/*** ACTUSMI CUSTOM CSS: ***/
+
+li { background: white; list-style-type: none; padding: 2px 0px 2px 2px; font-size: 11pt; font-family: Arial, Helvetica, sans-serif;}
+li:nth-child(odd) { background: #C0C0C0; }
+
+ul.indent { margin:0; padding: 10px 0px 10px 15px;}
+
+ul.menu li { background: white;}
+
+div.miniToc {
+	left: -165px;
+	/*left: 15px; (medintellibase2.css)*/
+	top	: 282px;
+	width: 215px;
+}
+
+.advancedSearch #subjectId_formId {
+width: 268px;
+}
+
+#main {
+    margin: 0 auto 0 180px;
+    position: relative;
+    text-align: left;
+    width: 860px;
+}
+
+h2 {
+	font-size:14px;
+	font-weight:bold;
+}
+
+#main #mainHeader {
+	position : center;
+}
+
+#main #mainContent {
+    margin: 0 auto;
+    width: 620px;
+}
+
+#main #mainContent #mainText .rss {
+    margin-top: 1em;
+}
+
+#main .mainNav_1 a:link, #main .mainNav_1 a:visited {
+	padding : 2px 13px 1px 12px;
+}
+
+#copyright {
+	width:	605px;
+	margin: 0 auto;
+}
+
+.portalhead {
+	background-color:#507197;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:3px;
+}
+
+.portalborder {
+	border: 1px solid #507197;
+	margin-bottom:12px;
+}
+	
+.portalcontent {
+	padding:3px;
+}
+
+.portalhead3 {
+	background-color:#648db8;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:3px;
+}
+
+.portalborder3 {
+	border: 1px solid #648db8;
+	margin-bottom:12px;
+}
+
+.portalhead2 {
+	background-color:#507197;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:3px;
+}
+
+.portalborder2 {
+	border: 1px solid #507197;
+	margin-bottom:12px;
+}
+
+.portalhead1 {
+	background-color:#354c64;
+	color:#ffffff;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	padding:3px;
+}
+
+.portalborder1 {
+	border: 1px solid #354c64;
+	margin-bottom:12px;
+}
+
+.vpn {
+	float: right;
+	background-color: #76ae76;
+	border: solid #336633 1px;
+	padding:3px;
+	color:white;
+	font-weight:bold
+	font-size: 8pt;
+}
+
+.navlinks {
+	float:right;
+	font-size:11px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+#printControls {
+	width: 605px;
+}
+
+h1.header2 {
+	font-size: 11px;
+}
+
+.manageUsersLinks {
+    margin-bottom: 15px;
+    overflow: auto;
+display: block;
+}
